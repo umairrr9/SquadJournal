@@ -1,0 +1,65 @@
+#b{
+    color: black;
+}
+
+#b1, #b2, #b3{
+    border: 2px solid #c6c5c4;
+    border-radius: 25px;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #f9fafa;
+    font-size: 140%;
+    width: 33%;
+    float: left;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #868686;
+}
+
+#menu a:hover{
+    color: #14cbd2;
+}
+
+/* #menu{
+    
+} */
+
+#grps{
+    font-size: large;
+    padding: 60px 0 0 17px;
+}
+
+#grps p{
+    color: #14cbd2;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+#grps a{
+    color: #14cbd2;
+    text-decoration: none;
+}
+
+#grps a:hover{
+    text-decoration: underline;
+}
+
+h3{
+    color: #868686;
+}
+
+#message{
+    padding: 20px;
+    font-size: 130%;
+}
+
+#findloc{
+    width: 100px;
+    height: 15px;
+    background-color: #14cbd2;
+    border-radius: 25px;
+    font-size: 90%;
+
+}

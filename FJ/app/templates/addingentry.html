@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+     
+<link href="../static/groups.css" rel="stylesheet" type="text/css">
+
+<center>
+
+<div id="entry">
+    <form action="" method="post" name="journal">
+        {{ form.hidden_tag() }}
+        
+        <p class="subheading"> Entry (Max: 400 characters) </p>
+        <p> {{ form.entry }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.entry.errors %}
+                <span> {{ error }} </span>
+            {% endfor %}
+        </div>
+        <br>
+    
+        <p class="subheading"> Add Location Information (Max: 50 characters)  </p>
+        <p> {{ form.loc }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.loc.errors %}
+                <span> {{ error }}</span>
+            {% endfor %}
+        </div>
+        <br>
+
+        <p class="subheading"> Confirm Group Name </p>
+        <p> {{ form.grpName }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.grpName.errors %}
+                <span> {{ error }}</span>
+            {% endfor %}
+        </div>
+        <br>
+
+        <p class="subheading"> Confirm Group Password </p>
+        <p> {{ form.grpPswrd }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.grpPswrd.errors %}
+                <span> {{ error }}</span>
+            {% endfor %}
+        </div>
+        <br>
+
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+         <ul>
+          {% for category, message in messages %}
+            <li class="{{ category }}"> {{ message }} </li>
+          {% endfor %}
+         </ul>
+        {% endif %}
+        {% endwith %}
+    
+        <p><input type="submit" value="Add Entry"></p>
+    </form>
+
+    </div>
+
+    </center>
+
+
+{% endblock %}

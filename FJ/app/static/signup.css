@@ -1,0 +1,22 @@
+#e{
+    color: black;
+}
+
+body{
+    background-image: url("white1.jpg");
+}
+
+.st{
+    color: #868686;
+    position: absolute;
+    left: 35%;
+}
+
+#border{
+    position: relative;
+    top: -72px;
+}
+
+.invalidfeedback{
+    color: red;
+}

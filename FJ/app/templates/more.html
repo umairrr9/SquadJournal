@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block content %}
+     
+<link href="../static/more.css" rel="stylesheet" type="text/css">
+
+<br> <br> <br>
+
+<center>
+<div id="more">
+
+        <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is Squad Journal?
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Welcome to The Squad Journal, where we want you to share your day with your squad! The creators of The
+                        Squad Journal wanted to mix two key ideas: journaling and being in groups. We're big on the idea of how
+                        consistently carrying out small actions can lead to long term success, such as journaling. Journaling
+                        comes with benefits such as a boost in one’s mood, clarity of mind and the ability to track progress. 
+                        <br><br>
+                        We really believe in the idea of journaling in a group as when used correctly, it's a powerful tool.
+                        Every member of a group can see each others journal entries which were posted in that specific group.
+                        This allows for sharing your day with those who you desire.
+                        <br><br>
+                        Other uses of Squad Journal include tracking progression of projects, keeping up to date with
+                        friends/family, sharing ideas and keeping track of fixtures/results for sports tournements etc.
+                        We have a friendly interface and an even friendlier customer support team!
+                                
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Joining Groups and Adding Entries
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                    {% if current_user.is_authenticated %}
+                        Once you are logged in, creating a group is very easy. Go to the <a href="/creategroup">create group</a>
+                        page, give the group a unique name and a password of at least 8 characters. The creator of the group will
+                        automatically be joined to the group. It is recommended that you note down the name and password in case
+                        you forget. Once you have created the group, you can share the name and password with those who you wish
+                        to join the group.
+                        <br><br>
+                        To join a group, you must go onto the <a href="/joingroup">join group</a> page and enter the correct group
+                        name and password, which should have been given to you by an existing member of the group.
+                        <br><br>
+                        To add an entry, you must go onto the <a href="/addingentry">adding entry</a> page. The first text box is
+                        for your actual journal entry. What text/notes/memories will you be saving and sharing with your group?
+                        The next field asks for location information (soon there will be an option to auto-fill this field). After
+                        that you must confirm the group you wish to add the information to by confirming the name and password.
+                    {% else %}
+                        First you must <a href="/login">log in</a>, then you can create/join groups and add entries. Go to the
+                        create group page, give the group a unique name and a password of at least 8 characters. The creator of
+                        the group will automatically be joined to the group. It is recommended that you note down the name and
+                        password in case you forget. Once you have created the group, you can share the name and password with
+                        those who you wish to join the group.
+                        <br><br>
+                        To join a group, you must go onto the join group page and enter the correct group name and password,
+                        which should have been given to you by an existing member of the group.
+                        <br><br>
+                        To add an entry, you must go onto the add entry page. The first text box is for your actual journal
+                        entry. What text/notes/memories will you be saving and sharing with your group? The next field asks
+                        for location information (soon there will be an option to auto-fill this field). After that you must
+                        confirm the group you wish to add the information to by confirming the name and password.
+                    {% endif %}
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Contact
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Email us on ll17uu@leeds.ac.uk to report any bugs/problems and for all other enquiries.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+</div>
+</center>
+
+
+{% endblock %}

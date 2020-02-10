@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block content %}
+     
+<link href="../static/signup.css" rel="stylesheet" type="text/css">
+
+<center>
+
+        <br>
+
+<div id="border">
+
+    <form action="" method="post" name="signup">
+        {{ form.hidden_tag() }}
+        <p class="subheading"> USERNAME </p>
+        <p> {{ form.username }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.username.errors %}
+                <span> {{ error }} </span>
+            {% endfor %}
+        </div>
+        <br>
+    
+        <p class="subheading"> EMAIL </p>
+        <p> {{ form.email }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.email.errors %}
+                <span> {{ error }} </span>
+            {% endfor %}
+        </div>
+        <br>
+    
+        <p class="subheading"> PASSWORD </p>
+        <p> {{ form.password }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.password.errors %}
+                <span> {{ error }}</span>
+            {% endfor %}
+        </div>
+        <br>
+
+        <p class="subheading"> CONFIRM PASSWORD </p>
+        <p> {{ form.confirmPassword }} </p>
+        <br>
+        <div class="invalidfeedback">
+            {% for error in form.confirmPassword.errors %}
+                <span> {{ error }}</span>
+            {% endfor %}
+        </div>
+
+        <p class="subheading"> I agree to the Terms and Conditions. {{ form.tandc }} </p>
+        <br>
+    
+        <p><input type="submit" value="Sign Up"></p>
+    </form>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+         <ul>
+          {% for category, message in messages %}
+            <li class="{{ category }}"> {{ message }} </li>
+          {% endfor %}
+         </ul>
+        {% endif %}
+        {% endwith %}
+            
+
+</div>
+</center>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+     
+<link href="../static/groups.css" rel="stylesheet" type="text/css">
+
+<br>
+
+<div id="menu">
+{% if current_user.is_authenticated %}
+    <div id="b1"> <a href="/creategroup"> CREATE GROUP </a> </div>
+    <div id="b2"> <a href="/joingroup"> JOIN GROUP </a> </div>
+    <div id="b3"> <a href="/addingentry"> ADD ENTRY </a> </div>
+</div>
+
+<div id="grps">
+    <h3> My Groups: </h3>
+    {% for g in current_user.groups %}
+        <p> <a href="/journal?id={{g.id}}"> {{ g.groupName }} </a> </p>
+    {% endfor %}
+</div>
+
+{% else %}
+    <div id="message">
+        <p id="p1"> Make sure to <a href="/login"> Log In </a> so you can create and join groups. </p>
+        <p id="2"> Or <a href="/signup"> Create an Account </a> if you haven't already. </p>
+    </div>
+{% endif %}
+
+
+<br><br>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+         <ul>
+          {% for category, message in messages %}
+            <li class="{{ category }}"> {{ message }} </li>
+          {% endfor %}
+         </ul>
+        {% endif %}
+        {% endwith %}
+
+
+{% endblock %}

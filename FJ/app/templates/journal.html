@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+     
+<link href="../static/journal.css" rel="stylesheet" type="text/css">
+
+<br>
+<div id="journal">
+
+        {% for j in jrnl %}
+
+            <p id="data"> <span id="name">{{j.member}} </span> ({{j.locJ}}, {{j.entry_date}}) </p>
+            <p id="entry"> {{j.entryJ}} </p>
+            <br><br>
+
+        {% endfor %}
+    
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+         <ul>
+          {% for category, message in messages %}
+            <li class="{{ category }}"> {{ message }} </li>
+          {% endfor %}
+         </ul>
+        {% endif %}
+        {% endwith %}
+
+{% endblock %}

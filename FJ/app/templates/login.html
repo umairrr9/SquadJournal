@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block content %}
+     
+<link href="../static/login.css" rel="stylesheet" type="text/css">
+
+<center>
+
+        
+
+<div id="border">
+
+    <form action="" method="post" name="login">
+        {{ form.hidden_tag() }}
+        
+        <p class="subheading"> EMAIL </p>
+        <p> {{ form.email }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.email.errors %}
+                <span> {{ error }} </span>
+            {% endfor %}
+        </div>
+        <br>
+    
+        <p class="subheading"> PASSWORD </p>
+        <p> {{ form.password }} </p>
+        <div class="invalidfeedback">
+            {% for error in form.password.errors %}
+                <span> {{ error }}</span>
+            {% endfor %}
+        </div>
+        <br>
+
+        <p class="subheading stayloggedin"> Stay Logged In? (I agree to the <span id="cookie">cookie policy</span>.) {{ form.remember(class="stayloggedininput") }} </p>
+        <br>
+
+        <div id="cookietext"> </div>
+        
+
+    
+        <p><input type="submit" value="Log In"></p>
+    </form>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+         <ul>
+          {% for category, message in messages %}
+            <li class="{{ category }}"> {{ message }} </li>
+          {% endfor %}
+         </ul>
+        {% endif %}
+        {% endwith %}
+            
+
+</div>
+</center>
+
+<script>
+    
+    $("#cookie").click(function() {
+        alert("At Squad Journal, we respect your privacy. Just like many other organisations, " +
+        "we like to use cookies, a technology which helps us collect information to enhance " +
+        "user experience. We use cookies in order to save your log in session, so that you are" +
+        " constantly logged in, no matter how many times you close the website and return. You " +
+        "will only log out when you click log out. Also, we do not use any third party cookies." +
+        " If you have any concerns, feel free to contact us at ll17uu@leeds.ac.uk.")
+    });
+
+</script>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<link href="../static/login.css" rel="stylesheet" type="text/css">
+     
+<center>
+        <div id="border">
+        
+            <form action="" method="post" name="login">
+                {{ form.hidden_tag() }}
+
+                <p class="subheading"> EMAIL </p>
+                <p> {{ form.email }} </p>
+                <br>
+            
+                <p class="subheading"> PASSWORD </p>
+                <p> {{ form.password }} </p>
+                <br>
+            
+                <p><input type="submit" value="Log In"></p>
+            </form>
+                    
+        
+        </div>
+        </center>
+
+
+
+
+
+
+
+
+-->

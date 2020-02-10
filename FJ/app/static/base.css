@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 130px;
+    background-color: #f9fafa;
+    border-bottom: 3px solid #c6c5c4;
+    padding-top: 30px;
+}
+
+input[type=text]{
+    height: 40px;
+    width: 300px;
+    color: #14cbd2;
+    font-size: 17px;
+}
+
+input[type=password]{
+    height: 40px;
+    width: 300px;
+    color: #14cbd2;
+    font-size: 17px;
+}
+
+input[type=submit]{
+    height: 40px;
+    width: 80px;
+    background-color: #14cbd2;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+textarea{
+    height: 130px;
+    width: 300px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 25px;
+    font-size: 20px;
+} 
+
+li a{
+    text-decoration: none;
+    color: #868686;
+}
+
+li a:active{
+    color: black;
+}
+
+#logo1{
+    margin: 0;
+    padding: 20px 30px 10px 30px;
+    float: right;
+}
+
+#login{
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding: 50px 50px;
+}
+
+#nav{
+    padding: 50px 50px;
+    margin: 0;
+    float: right;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+
+#border{
+    /* border: #14cbd2 solid 2px; */
+    width: 380px;
+    position: relative;
+    padding-top: 80px;
+}
+
+  .subheading{
+      color: #868686;
+  }
+
+  .navbar{
+    z-index: 1;
+  }

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+     
+<link href="../static/groups.css" rel="stylesheet" type="text/css">
+
+<center>
+<div id="groupjoin">
+<form action="" method="post" name="joingroup">
+    {{ form.hidden_tag() }}
+    
+    <p class="subheading"> GROUP NAME </p>
+    <p> {{ form.groupName }} </p>
+    <div class="invalidfeedback">
+        {% for error in form.groupName.errors %}
+            <span> {{ error }} </span>
+        {% endfor %}
+    </div>
+    <br>
+
+    <p class="subheading"> PASSWORD </p>
+    <p> {{ form.password }} </p>
+    <div class="invalidfeedback">
+        {% for error in form.password.errors %}
+            <span> {{ error }}</span>
+        {% endfor %}
+    </div>
+    <br>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+         <ul>
+          {% for category, message in messages %}
+            <li class="{{ category }}"> {{ message }} </li>
+          {% endfor %}
+         </ul>
+        {% endif %}
+        {% endwith %}
+
+    <p><input type="submit" value="Join"></p>
+</form>
+
+</div>
+</center>
+
+
+
+
+
+
+
+{% endblock %}

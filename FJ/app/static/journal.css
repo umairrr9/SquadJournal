@@ -1,0 +1,16 @@
+#journal{
+    padding: 20px;
+}
+
+#name{
+    color: #14cbd2;
+}
+
+#entry{
+    color: #868686;
+    font-size: 130%;
+}
+
+#data{
+    letter-spacing: 2px;
+}

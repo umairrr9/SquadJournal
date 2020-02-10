@@ -1,0 +1,357 @@
+2019-12-13 18:12:54,285 : INFO : 127.0.0.1 - - [13/Dec/2019 18:12:54] "GET /groups HTTP/1.1" 200 -
+2019-12-13 18:12:54,319 : INFO : 127.0.0.1 - - [13/Dec/2019 18:12:54] "GET /static/base.css HTTP/1.1" 200 -
+2019-12-13 18:12:54,331 : INFO : 127.0.0.1 - - [13/Dec/2019 18:12:54] "GET /static/groups.css HTTP/1.1" 200 -
+2019-12-13 18:12:54,580 : INFO : 127.0.0.1 - - [13/Dec/2019 18:12:54] "GET /favicon.ico HTTP/1.1" 404 -
+2019-12-13 18:17:14,521 : INFO : umair logged out.
+2019-12-13 18:17:14,524 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:14] "GET /logout HTTP/1.1" 302 -
+2019-12-13 18:17:14,535 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:14] "GET / HTTP/1.1" 200 -
+2019-12-13 18:17:14,566 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:14] "GET /static/index.css HTTP/1.1" 304 -
+2019-12-13 18:17:14,572 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:14] "GET /static/logo.png HTTP/1.1" 304 -
+2019-12-13 18:17:14,589 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:14] "GET /static/winter.jpg HTTP/1.1" 304 -
+2019-12-13 18:17:15,458 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:15] "GET /signup HTTP/1.1" 200 -
+2019-12-13 18:17:15,490 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:15] "GET /static/signup.css HTTP/1.1" 304 -
+2019-12-13 18:17:15,517 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:15] "GET /static/white1.jpg HTTP/1.1" 304 -
+2019-12-13 18:17:40,450 : INFO : 127.0.0.1 - - [13/Dec/2019 18:17:40] "POST /signup HTTP/1.1" 200 -
+2019-12-13 18:30:48,575 : INFO : 127.0.0.1 - - [13/Dec/2019 18:30:48] "POST /signup HTTP/1.1" 200 -
+2019-12-13 19:48:02,305 : INFO : The CSRF token has expired.
+2019-12-13 19:48:02,307 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:02] "POST /signup HTTP/1.1" 200 -
+2019-12-13 19:48:02,340 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:02] "GET /static/base.css HTTP/1.1" 200 -
+2019-12-13 19:48:02,342 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:02] "GET /static/signup.css HTTP/1.1" 200 -
+2019-12-13 19:48:02,898 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:02] "GET /static/white1.jpg HTTP/1.1" 200 -
+2019-12-13 19:48:02,924 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:02] "GET /favicon.ico HTTP/1.1" 404 -
+2019-12-13 19:48:23,700 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:23] "POST /signup HTTP/1.1" 200 -
+2019-12-13 19:48:41,339 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:41] "POST /signup HTTP/1.1" 302 -
+2019-12-13 19:48:41,353 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:41] "GET /login HTTP/1.1" 200 -
+2019-12-13 19:48:41,385 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:41] "GET /static/login.css HTTP/1.1" 304 -
+2019-12-13 19:48:52,692 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:52] "GET /login HTTP/1.1" 200 -
+2019-12-13 19:48:57,858 : INFO : 127.0.0.1 - - [13/Dec/2019 19:48:57] "GET /signup HTTP/1.1" 200 -
+2019-12-13 19:49:37,654 : INFO : 127.0.0.1 - - [13/Dec/2019 19:49:37] "POST /signup HTTP/1.1" 200 -
+2019-12-13 20:09:00,840 : INFO : 127.0.0.1 - - [13/Dec/2019 20:09:00] "GET /login HTTP/1.1" 200 -
+2019-12-13 20:09:10,815 : INFO : 127.0.0.1 - - [13/Dec/2019 20:09:10] "POST /login HTTP/1.1" 200 -
+2019-12-13 22:19:05,664 : INFO : The CSRF token has expired.
+2019-12-13 22:19:05,665 : INFO : 127.0.0.1 - - [13/Dec/2019 22:19:05] "POST /login HTTP/1.1" 200 -
+2019-12-13 22:19:13,214 : INFO : 127.0.0.1 - - [13/Dec/2019 22:19:13] "GET / HTTP/1.1" 200 -
+2019-12-13 22:19:14,728 : INFO : 127.0.0.1 - - [13/Dec/2019 22:19:14] "GET /login HTTP/1.1" 200 -
+2019-12-13 22:19:23,522 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:19:23,524 : INFO : 127.0.0.1 - - [13/Dec/2019 22:19:23] "POST /login HTTP/1.1" 302 -
+2019-12-13 22:19:23,532 : INFO : 127.0.0.1 - - [13/Dec/2019 22:19:23] "GET /login HTTP/1.1" 200 -
+2019-12-13 22:28:23,080 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:28:23,104 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:28:23,215 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:28:23,232 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:30:36,645 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:30:36,666 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:30:36,794 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:30:36,818 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:32:24,786 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:32:24,908 : WARNING : Login attempt from unrecognised email.
+2019-12-13 22:32:24,933 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:38:12,432 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:38:12,451 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:38:12,542 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:38:12,559 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:38:22,111 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:38:22,128 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:38:22,223 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:38:22,241 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:42:34,487 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:42:34,508 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:42:34,614 : WARNING : Login attempt from unrecognised email.
+2019-12-13 23:42:34,634 : WARNING : Login attempt from unrecognised email.
+2019-12-14 00:05:14,309 : INFO : 127.0.0.1 - - [14/Dec/2019 00:05:14] "GET / HTTP/1.1" 200 -
+2019-12-14 00:05:17,632 : INFO : 127.0.0.1 - - [14/Dec/2019 00:05:17] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:05:19,351 : INFO : 127.0.0.1 - - [14/Dec/2019 00:05:19] "GET /more HTTP/1.1" 200 -
+2019-12-14 00:05:19,380 : INFO : 127.0.0.1 - - [14/Dec/2019 00:05:19] "GET /static/more.css HTTP/1.1" 304 -
+2019-12-14 00:05:20,614 : INFO : 127.0.0.1 - - [14/Dec/2019 00:05:20] "GET /signup HTTP/1.1" 200 -
+2019-12-14 00:05:22,642 : INFO : 127.0.0.1 - - [14/Dec/2019 00:05:22] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:05:24,096 : INFO : 127.0.0.1 - - [14/Dec/2019 00:05:24] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:17:41,757 : INFO : 127.0.0.1 - - [14/Dec/2019 00:17:41] "GET /signup HTTP/1.1" 200 -
+2019-12-14 00:18:44,907 : INFO : 127.0.0.1 - - [14/Dec/2019 00:18:44] "POST /signup HTTP/1.1" 302 -
+2019-12-14 00:18:44,915 : INFO : 127.0.0.1 - - [14/Dec/2019 00:18:44] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:19:02,054 : INFO : 127.0.0.1 - - [14/Dec/2019 00:19:02] "GET /signup HTTP/1.1" 200 -
+2019-12-14 00:19:51,085 : INFO : 127.0.0.1 - - [14/Dec/2019 00:19:51] "POST /signup HTTP/1.1" 302 -
+2019-12-14 00:19:51,090 : INFO : 127.0.0.1 - - [14/Dec/2019 00:19:51] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:19:54,187 : INFO : 127.0.0.1 - - [14/Dec/2019 00:19:54] "GET /signup HTTP/1.1" 200 -
+2019-12-14 00:20:07,744 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:07] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:20:09,004 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:09] "GET /signup HTTP/1.1" 200 -
+2019-12-14 00:20:10,753 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:10] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:20:19,181 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:19] "POST /login HTTP/1.1" 200 -
+2019-12-14 00:20:30,485 : INFO : dave@example.com logged in successfully.
+2019-12-14 00:20:30,487 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:30] "POST /login HTTP/1.1" 302 -
+2019-12-14 00:20:30,494 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:30] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:20:32,242 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:32] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 00:20:39,494 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:39] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:20:41,832 : INFO : dave@example.com logged out.
+2019-12-14 00:20:41,834 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:41] "GET /logout HTTP/1.1" 302 -
+2019-12-14 00:20:41,839 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:41] "GET / HTTP/1.1" 200 -
+2019-12-14 00:20:42,902 : INFO : 127.0.0.1 - - [14/Dec/2019 00:20:42] "GET /signup HTTP/1.1" 200 -
+2019-12-14 00:21:00,777 : INFO : 127.0.0.1 - - [14/Dec/2019 00:21:00] "POST /signup HTTP/1.1" 302 -
+2019-12-14 00:21:00,783 : INFO : 127.0.0.1 - - [14/Dec/2019 00:21:00] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:21:22,594 : INFO : 127.0.0.1 - - [14/Dec/2019 00:21:22] "GET /signup HTTP/1.1" 200 -
+2019-12-14 00:21:45,464 : INFO : 127.0.0.1 - - [14/Dec/2019 00:21:45] "POST /signup HTTP/1.1" 302 -
+2019-12-14 00:21:45,469 : INFO : 127.0.0.1 - - [14/Dec/2019 00:21:45] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:22:08,335 : INFO : 127.0.0.1 - - [14/Dec/2019 00:22:08] "GET /signup HTTP/1.1" 200 -
+2019-12-14 00:22:30,394 : INFO : 127.0.0.1 - - [14/Dec/2019 00:22:30] "POST /signup HTTP/1.1" 302 -
+2019-12-14 00:22:30,399 : INFO : 127.0.0.1 - - [14/Dec/2019 00:22:30] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:23:27,853 : INFO : umair logged in successfully.
+2019-12-14 00:23:27,855 : INFO : 127.0.0.1 - - [14/Dec/2019 00:23:27] "POST /login HTTP/1.1" 302 -
+2019-12-14 00:23:27,861 : INFO : 127.0.0.1 - - [14/Dec/2019 00:23:27] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:23:29,999 : INFO : 127.0.0.1 - - [14/Dec/2019 00:23:29] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 00:24:07,545 : INFO : umair created and joined the Computing group.
+2019-12-14 00:24:07,546 : INFO : 127.0.0.1 - - [14/Dec/2019 00:24:07] "POST /creategroup HTTP/1.1" 302 -
+2019-12-14 00:24:07,554 : INFO : 127.0.0.1 - - [14/Dec/2019 00:24:07] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:24:17,973 : INFO : 127.0.0.1 - - [14/Dec/2019 00:24:17] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 00:24:46,270 : INFO : umair created and joined the Project group.
+2019-12-14 00:24:46,271 : INFO : 127.0.0.1 - - [14/Dec/2019 00:24:46] "POST /creategroup HTTP/1.1" 302 -
+2019-12-14 00:24:46,280 : INFO : 127.0.0.1 - - [14/Dec/2019 00:24:46] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:24:58,249 : INFO : 127.0.0.1 - - [14/Dec/2019 00:24:58] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 00:26:00,336 : INFO : umair created and joined the Squad group.
+2019-12-14 00:26:00,337 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:00] "POST /creategroup HTTP/1.1" 302 -
+2019-12-14 00:26:00,346 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:00] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:26:03,711 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:03] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:26:44,222 : INFO : umair added an entry to the Squad group.
+2019-12-14 00:26:44,222 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:44] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:26:44,233 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:44] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:26:45,900 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:45] "GET /journal?id=1 HTTP/1.1" 200 -
+2019-12-14 00:26:45,931 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:45] "GET /static/journal.css HTTP/1.1" 304 -
+2019-12-14 00:26:50,459 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:50] "GET /journal?id=3 HTTP/1.1" 200 -
+2019-12-14 00:26:53,970 : INFO : 127.0.0.1 - - [14/Dec/2019 00:26:53] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:27:19,915 : INFO : umair added an entry to the Project group.
+2019-12-14 00:27:19,915 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:19] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:27:19,925 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:19] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:27:23,098 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:23] "GET /journal?id=2 HTTP/1.1" 200 -
+2019-12-14 00:27:36,248 : INFO : umair logged out.
+2019-12-14 00:27:36,251 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:36] "GET /logout HTTP/1.1" 302 -
+2019-12-14 00:27:36,257 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:36] "GET / HTTP/1.1" 200 -
+2019-12-14 00:27:38,117 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:38] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:27:56,242 : INFO : dave@example.com logged in successfully.
+2019-12-14 00:27:56,243 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:56] "POST /login HTTP/1.1" 302 -
+2019-12-14 00:27:56,251 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:56] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:27:58,789 : INFO : 127.0.0.1 - - [14/Dec/2019 00:27:58] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:28:16,196 : INFO : dave@example.com joined the Project group.
+2019-12-14 00:28:16,197 : INFO : 127.0.0.1 - - [14/Dec/2019 00:28:16] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:28:16,206 : INFO : 127.0.0.1 - - [14/Dec/2019 00:28:16] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:28:17,329 : INFO : 127.0.0.1 - - [14/Dec/2019 00:28:17] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:29:20,591 : INFO : 127.0.0.1 - - [14/Dec/2019 00:29:20] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:29:24,202 : INFO : 127.0.0.1 - - [14/Dec/2019 00:29:24] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:30:10,632 : INFO : dave@example.com added an entry to the Project group.
+2019-12-14 00:30:10,632 : INFO : 127.0.0.1 - - [14/Dec/2019 00:30:10] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:30:10,640 : INFO : 127.0.0.1 - - [14/Dec/2019 00:30:10] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:30:11,705 : INFO : 127.0.0.1 - - [14/Dec/2019 00:30:11] "GET /journal?id=2 HTTP/1.1" 200 -
+2019-12-14 00:30:29,183 : INFO : 127.0.0.1 - - [14/Dec/2019 00:30:29] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:30:38,221 : INFO : dave@example.com joined the Computing group.
+2019-12-14 00:30:38,222 : INFO : 127.0.0.1 - - [14/Dec/2019 00:30:38] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:30:38,229 : INFO : 127.0.0.1 - - [14/Dec/2019 00:30:38] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:30:42,276 : INFO : 127.0.0.1 - - [14/Dec/2019 00:30:42] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:31:26,529 : INFO : dave@example.com added an entry to the Computing group.
+2019-12-14 00:31:26,529 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:26] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:31:26,536 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:26] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:31:28,512 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:28] "GET /journal?id=2 HTTP/1.1" 200 -
+2019-12-14 00:31:31,096 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:31] "GET /journal?id=1 HTTP/1.1" 200 -
+2019-12-14 00:31:35,052 : INFO : dave@example.com logged out.
+2019-12-14 00:31:35,054 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:35] "GET /logout HTTP/1.1" 302 -
+2019-12-14 00:31:35,060 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:35] "GET / HTTP/1.1" 200 -
+2019-12-14 00:31:36,669 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:36] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:31:50,216 : INFO : anthony failed to log in.
+2019-12-14 00:31:50,218 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:50] "POST /login HTTP/1.1" 302 -
+2019-12-14 00:31:50,224 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:50] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:31:57,420 : INFO : anthony logged in successfully.
+2019-12-14 00:31:57,422 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:57] "POST /login HTTP/1.1" 302 -
+2019-12-14 00:31:57,428 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:57] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:31:59,814 : INFO : 127.0.0.1 - - [14/Dec/2019 00:31:59] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:32:11,102 : INFO : anthony joined the Computing group.
+2019-12-14 00:32:11,103 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:11] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:32:11,110 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:11] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:32:13,180 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:13] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:32:14,754 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:14] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:32:15,685 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:15] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 00:32:19,842 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:19] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:32:20,900 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:20] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:32:28,102 : INFO : anthony joined the Project group.
+2019-12-14 00:32:28,103 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:28] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:32:28,110 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:28] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:32:30,294 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:30] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:32:39,589 : INFO : anthony joined the Squad group.
+2019-12-14 00:32:39,589 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:39] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:32:39,598 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:39] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:32:41,654 : INFO : 127.0.0.1 - - [14/Dec/2019 00:32:41] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:33:44,755 : INFO : anthony added an entry to the Computing group.
+2019-12-14 00:33:44,755 : INFO : 127.0.0.1 - - [14/Dec/2019 00:33:44] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:33:44,762 : INFO : 127.0.0.1 - - [14/Dec/2019 00:33:44] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:33:47,089 : INFO : 127.0.0.1 - - [14/Dec/2019 00:33:47] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:34:45,954 : INFO : anthony added an entry to the Squad group.
+2019-12-14 00:34:45,954 : INFO : 127.0.0.1 - - [14/Dec/2019 00:34:45] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:34:45,961 : INFO : 127.0.0.1 - - [14/Dec/2019 00:34:45] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:34:48,400 : INFO : 127.0.0.1 - - [14/Dec/2019 00:34:48] "GET /journal?id=1 HTTP/1.1" 200 -
+2019-12-14 00:34:52,155 : INFO : 127.0.0.1 - - [14/Dec/2019 00:34:52] "GET /journal?id=2 HTTP/1.1" 200 -
+2019-12-14 00:34:54,884 : INFO : 127.0.0.1 - - [14/Dec/2019 00:34:54] "GET /journal?id=3 HTTP/1.1" 200 -
+2019-12-14 00:34:58,556 : INFO : anthony logged out.
+2019-12-14 00:34:58,558 : INFO : 127.0.0.1 - - [14/Dec/2019 00:34:58] "GET /logout HTTP/1.1" 302 -
+2019-12-14 00:34:58,563 : INFO : 127.0.0.1 - - [14/Dec/2019 00:34:58] "GET / HTTP/1.1" 200 -
+2019-12-14 00:34:59,818 : INFO : 127.0.0.1 - - [14/Dec/2019 00:34:59] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:35:09,392 : INFO : ellie logged in successfully.
+2019-12-14 00:35:09,393 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:09] "POST /login HTTP/1.1" 302 -
+2019-12-14 00:35:09,401 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:09] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:35:12,703 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:12] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:35:22,964 : INFO : ellie joined the Computing group.
+2019-12-14 00:35:22,965 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:22] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:35:22,976 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:22] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:35:24,578 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:24] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:35:49,131 : INFO : ellie joined the Project group.
+2019-12-14 00:35:49,132 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:49] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:35:49,140 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:49] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:35:59,787 : INFO : 127.0.0.1 - - [14/Dec/2019 00:35:59] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:36:27,288 : INFO : ellie added an entry to the Project group.
+2019-12-14 00:36:27,289 : INFO : 127.0.0.1 - - [14/Dec/2019 00:36:27] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:36:27,296 : INFO : 127.0.0.1 - - [14/Dec/2019 00:36:27] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:36:29,253 : INFO : 127.0.0.1 - - [14/Dec/2019 00:36:29] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:36:44,838 : INFO : ellie logged out.
+2019-12-14 00:36:44,840 : INFO : 127.0.0.1 - - [14/Dec/2019 00:36:44] "GET /logout HTTP/1.1" 302 -
+2019-12-14 00:36:44,846 : INFO : 127.0.0.1 - - [14/Dec/2019 00:36:44] "GET / HTTP/1.1" 200 -
+2019-12-14 00:36:46,512 : INFO : 127.0.0.1 - - [14/Dec/2019 00:36:46] "GET /login HTTP/1.1" 200 -
+2019-12-14 00:37:02,779 : INFO : jennie logged in successfully.
+2019-12-14 00:37:02,780 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:02] "POST /login HTTP/1.1" 302 -
+2019-12-14 00:37:02,787 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:02] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:37:04,135 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:04] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:37:05,715 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:05] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:37:06,874 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:06] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 00:37:22,305 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:22] "POST /creategroup HTTP/1.1" 500 -
+2019-12-14 00:37:22,333 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:22] "GET /creategroup?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-14 00:37:22,333 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:22] "GET /creategroup?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-14 00:37:22,334 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:22] "GET /creategroup?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-14 00:37:22,431 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:22] "GET /creategroup?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-14 00:37:22,487 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:22] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 00:37:22,573 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:22] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 00:37:30,738 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:30] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:37:33,547 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:33] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:37:55,654 : INFO : jennie joined the Squad group.
+2019-12-14 00:37:55,654 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:55] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:37:55,661 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:55] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:37:58,158 : INFO : 127.0.0.1 - - [14/Dec/2019 00:37:58] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:38:09,848 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:09] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:38:09,854 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:09] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:38:17,786 : INFO : jennie joined the Computing group.
+2019-12-14 00:38:17,787 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:17] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:38:17,797 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:17] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:38:18,739 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:18] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:38:30,691 : INFO : jennie joined the Project group.
+2019-12-14 00:38:30,692 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:30] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:38:30,704 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:30] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:38:32,204 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:32] "GET /joingroup HTTP/1.1" 200 -
+2019-12-14 00:38:37,682 : INFO : jennie joined the Squad group.
+2019-12-14 00:38:37,683 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:37] "POST /joingroup HTTP/1.1" 302 -
+2019-12-14 00:38:37,690 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:37] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:38:42,708 : INFO : 127.0.0.1 - - [14/Dec/2019 00:38:42] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:39:18,562 : INFO : jennie added an entry to the Squad group.
+2019-12-14 00:39:18,562 : INFO : 127.0.0.1 - - [14/Dec/2019 00:39:18] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:39:18,570 : INFO : 127.0.0.1 - - [14/Dec/2019 00:39:18] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:39:20,246 : INFO : 127.0.0.1 - - [14/Dec/2019 00:39:20] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 00:40:48,081 : INFO : jennie added an entry to the Computing group.
+2019-12-14 00:40:48,082 : INFO : 127.0.0.1 - - [14/Dec/2019 00:40:48] "POST /addingentry HTTP/1.1" 302 -
+2019-12-14 00:40:48,089 : INFO : 127.0.0.1 - - [14/Dec/2019 00:40:48] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:40:50,207 : INFO : 127.0.0.1 - - [14/Dec/2019 00:40:50] "GET /journal?id=3 HTTP/1.1" 200 -
+2019-12-14 00:40:57,770 : INFO : 127.0.0.1 - - [14/Dec/2019 00:40:57] "GET /journal?id=1 HTTP/1.1" 200 -
+2019-12-14 00:41:02,901 : INFO : 127.0.0.1 - - [14/Dec/2019 00:41:02] "GET /journal?id=2 HTTP/1.1" 200 -
+2019-12-14 00:41:06,620 : INFO : 127.0.0.1 - - [14/Dec/2019 00:41:06] "GET / HTTP/1.1" 200 -
+2019-12-14 00:43:13,997 : INFO : 127.0.0.1 - - [14/Dec/2019 00:43:13] "GET /groups HTTP/1.1" 200 -
+2019-12-14 00:43:21,205 : INFO : 127.0.0.1 - - [14/Dec/2019 00:43:21] "GET /more HTTP/1.1" 200 -
+2019-12-14 01:55:07,416 : INFO : 127.0.0.1 - - [14/Dec/2019 01:55:07] "GET /more HTTP/1.1" 200 -
+2019-12-14 01:55:07,476 : INFO : 127.0.0.1 - - [14/Dec/2019 01:55:07] "GET /favicon.ico HTTP/1.1" 404 -
+2019-12-14 01:55:08,300 : INFO : 127.0.0.1 - - [14/Dec/2019 01:55:08] "GET /more HTTP/1.1" 200 -
+2019-12-14 01:55:09,573 : INFO : 127.0.0.1 - - [14/Dec/2019 01:55:09] "GET / HTTP/1.1" 200 -
+2019-12-14 01:55:11,643 : INFO : 127.0.0.1 - - [14/Dec/2019 01:55:11] "GET /groups HTTP/1.1" 200 -
+2019-12-14 12:43:01,079 : WARNING : Login attempt from unrecognised email.
+2019-12-14 12:43:01,097 : WARNING : Login attempt from unrecognised email.
+2019-12-14 12:43:01,207 : WARNING : Login attempt from unrecognised email.
+2019-12-14 12:43:24,293 : WARNING : Login attempt from unrecognised email.
+2019-12-14 12:43:24,311 : WARNING : Login attempt from unrecognised email.
+2019-12-14 12:43:24,348 : WARNING : Login attempt from unrecognised email.
+2019-12-14 13:07:11,860 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:11] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 13:07:11,894 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:11] "GET /static/base.css HTTP/1.1" 304 -
+2019-12-14 13:07:11,908 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:11] "GET /static/groups.css HTTP/1.1" 304 -
+2019-12-14 13:07:21,492 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:21] "POST /creategroup HTTP/1.1" 500 -
+2019-12-14 13:07:21,522 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:21] "GET /creategroup?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-14 13:07:21,523 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:21] "GET /creategroup?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-14 13:07:21,524 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:21] "GET /creategroup?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-14 13:07:21,654 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:21] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 13:07:21,670 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:21] "GET /creategroup?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-14 13:07:21,709 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:21] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 13:07:29,207 : INFO : 127.0.0.1 - - [14/Dec/2019 13:07:29] "GET /groups HTTP/1.1" 200 -
+2019-12-14 13:11:27,370 : INFO :  * Detected change in '/Users/umairul-haq/Desktop/FJ/app/views.py', reloading
+2019-12-14 13:11:27,499 : INFO :  * Restarting with stat
+2019-12-14 13:11:28,580 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:28] "GET /groups HTTP/1.1" 200 -
+2019-12-14 13:11:28,598 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:28] "GET /static/base.css HTTP/1.1" 200 -
+2019-12-14 13:11:28,605 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:28] "GET /static/groups.css HTTP/1.1" 200 -
+2019-12-14 13:11:28,864 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:28] "GET /favicon.ico HTTP/1.1" 404 -
+2019-12-14 13:11:30,885 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:30] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 13:11:37,069 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:37] "POST /creategroup HTTP/1.1" 500 -
+2019-12-14 13:11:37,108 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:37] "GET /creategroup?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-14 13:11:37,112 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:37] "GET /creategroup?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-14 13:11:37,113 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:37] "GET /creategroup?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-14 13:11:37,231 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:37] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 13:11:37,249 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:37] "GET /creategroup?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-14 13:11:37,286 : INFO : 127.0.0.1 - - [14/Dec/2019 13:11:37] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 13:13:42,970 : INFO :  * Detected change in '/Users/umairul-haq/Desktop/FJ/app/views.py', reloading
+2019-12-14 13:13:43,041 : INFO :  * Restarting with stat
+2019-12-14 13:13:48,382 : INFO : 127.0.0.1 - - [14/Dec/2019 13:13:48] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 13:13:48,407 : INFO : 127.0.0.1 - - [14/Dec/2019 13:13:48] "GET /static/base.css HTTP/1.1" 200 -
+2019-12-14 13:13:48,408 : INFO : 127.0.0.1 - - [14/Dec/2019 13:13:48] "GET /static/groups.css HTTP/1.1" 200 -
+2019-12-14 13:13:48,531 : INFO : 127.0.0.1 - - [14/Dec/2019 13:13:48] "GET /favicon.ico HTTP/1.1" 404 -
+2019-12-14 13:13:56,103 : INFO : 127.0.0.1 - - [14/Dec/2019 13:13:56] "POST /creategroup HTTP/1.1" 302 -
+2019-12-14 13:13:56,113 : INFO : 127.0.0.1 - - [14/Dec/2019 13:13:56] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 13:23:47,461 : INFO : 127.0.0.1 - - [14/Dec/2019 13:23:47] "POST /creategroup HTTP/1.1" 200 -
+2019-12-14 13:24:20,553 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:20] "POST /creategroup HTTP/1.1" 500 -
+2019-12-14 13:24:20,577 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:20] "GET /creategroup?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-14 13:24:20,582 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:20] "GET /creategroup?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-14 13:24:20,582 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:20] "GET /creategroup?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-14 13:24:20,637 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:20] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 13:24:20,643 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:20] "GET /creategroup?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-14 13:24:20,664 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:20] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 13:24:41,174 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:41] "POST /creategroup HTTP/1.1" 500 -
+2019-12-14 13:24:41,200 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:41] "GET /creategroup?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-14 13:24:41,204 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:41] "GET /creategroup?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-14 13:24:41,204 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:41] "GET /creategroup?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-14 13:24:41,257 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:41] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 13:24:41,261 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:41] "GET /creategroup?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-14 13:24:41,281 : INFO : 127.0.0.1 - - [14/Dec/2019 13:24:41] "GET /creategroup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-14 13:25:16,758 : INFO :  * Detected change in '/Users/umairul-haq/Desktop/FJ/app/views.py', reloading
+2019-12-14 13:25:16,825 : INFO :  * Restarting with stat
+2019-12-14 13:26:19,995 : WARNING : Login attempt from unrecognised email.
+2019-12-14 13:26:20,014 : WARNING : Login attempt from unrecognised email.
+2019-12-14 13:26:20,051 : WARNING : Login attempt from unrecognised email.
+2019-12-14 13:26:26,007 : INFO : jennie created and joined the Mathss group.
+2019-12-14 13:26:26,009 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:26] "POST /creategroup HTTP/1.1" 302 -
+2019-12-14 13:26:26,032 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:26] "GET /groups HTTP/1.1" 200 -
+2019-12-14 13:26:28,563 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:28] "GET /journal?id=4 HTTP/1.1" 200 -
+2019-12-14 13:26:28,590 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:28] "GET /static/journal.css HTTP/1.1" 304 -
+2019-12-14 13:26:30,254 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:30] "GET /groups HTTP/1.1" 200 -
+2019-12-14 13:26:34,052 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:34] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 13:26:37,032 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:37] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 13:26:47,171 : INFO : jennie created and joined the Test group.
+2019-12-14 13:26:47,173 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:47] "POST /creategroup HTTP/1.1" 302 -
+2019-12-14 13:26:47,180 : INFO : 127.0.0.1 - - [14/Dec/2019 13:26:47] "GET /groups HTTP/1.1" 200 -
+2019-12-14 16:17:35,571 : INFO : 127.0.0.1 - - [14/Dec/2019 16:17:35] "GET / HTTP/1.1" 200 -
+2019-12-14 16:17:35,598 : INFO : 127.0.0.1 - - [14/Dec/2019 16:17:35] "GET /static/index.css HTTP/1.1" 304 -
+2019-12-14 16:17:35,599 : INFO : 127.0.0.1 - - [14/Dec/2019 16:17:35] "GET /static/logo.png HTTP/1.1" 304 -
+2019-12-14 16:17:35,617 : INFO : 127.0.0.1 - - [14/Dec/2019 16:17:35] "GET /static/winter.jpg HTTP/1.1" 304 -
+2019-12-14 16:17:35,642 : INFO : 127.0.0.1 - - [14/Dec/2019 16:17:35] "GET /favicon.ico HTTP/1.1" 404 -
+2019-12-14 16:20:39,528 : INFO : 127.0.0.1 - - [14/Dec/2019 16:20:39] "GET /groups HTTP/1.1" 200 -
+2019-12-14 21:32:20,127 : INFO : 127.0.0.1 - - [14/Dec/2019 21:32:20] "GET /more HTTP/1.1" 200 -
+2019-12-14 21:32:20,162 : INFO : 127.0.0.1 - - [14/Dec/2019 21:32:20] "GET /static/more.css HTTP/1.1" 304 -
+2019-12-14 21:32:21,397 : INFO : 127.0.0.1 - - [14/Dec/2019 21:32:21] "GET /groups HTTP/1.1" 200 -
+2019-12-14 21:32:22,746 : INFO : 127.0.0.1 - - [14/Dec/2019 21:32:22] "GET / HTTP/1.1" 200 -
+2019-12-14 21:32:24,126 : INFO : 127.0.0.1 - - [14/Dec/2019 21:32:24] "GET /groups HTTP/1.1" 200 -
+2019-12-14 21:32:30,081 : INFO : 127.0.0.1 - - [14/Dec/2019 21:32:30] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 21:32:31,643 : INFO : 127.0.0.1 - - [14/Dec/2019 21:32:31] "GET /groups HTTP/1.1" 200 -
+2019-12-14 23:14:34,285 : WARNING : Login attempt from unrecognised email.
+2019-12-14 23:14:34,304 : WARNING : Login attempt from unrecognised email.
+2019-12-14 23:14:34,348 : WARNING : Login attempt from unrecognised email.
+2019-12-14 23:57:08,128 : INFO : 127.0.0.1 - - [14/Dec/2019 23:57:08] "GET / HTTP/1.1" 200 -
+2019-12-14 23:57:54,135 : INFO : 127.0.0.1 - - [14/Dec/2019 23:57:54] "GET /groups HTTP/1.1" 200 -
+2019-12-14 23:58:02,549 : INFO : 127.0.0.1 - - [14/Dec/2019 23:58:02] "GET /creategroup HTTP/1.1" 200 -
+2019-12-14 23:58:07,207 : INFO : 127.0.0.1 - - [14/Dec/2019 23:58:07] "GET /addingentry HTTP/1.1" 200 -
+2019-12-14 23:59:57,664 : INFO : 127.0.0.1 - - [14/Dec/2019 23:59:57] "GET /journal?id=1 HTTP/1.1" 200 -
+2019-12-15 00:00:06,461 : INFO : 127.0.0.1 - - [15/Dec/2019 00:00:06] "GET /joingroup HTTP/1.1" 200 -
+2019-12-15 00:00:10,124 : INFO : 127.0.0.1 - - [15/Dec/2019 00:00:10] "GET /creategroup HTTP/1.1" 200 -
+2019-12-15 00:00:13,771 : INFO : 127.0.0.1 - - [15/Dec/2019 00:00:13] "GET /more HTTP/1.1" 200 -
+2019-12-15 00:00:17,180 : INFO : 127.0.0.1 - - [15/Dec/2019 00:00:17] "GET / HTTP/1.1" 200 -

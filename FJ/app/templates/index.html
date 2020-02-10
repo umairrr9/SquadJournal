@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    
+    <meta name="description" content="Journaling in a way where it can be shared across groups
+    – more so for families. An example idea is that students away at university can sign up,
+    create a group with their parents and document each day with a summary per night. Everybody
+    within the group can view each other’s journals.">
+
+    <link href="../static/index.css" rel="stylesheet" type="text/css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+
+<!------------------------------------------------------------------------------------------------>
+
+<body>
+    
+    
+    <center>
+    <ul id="nav">
+        <li> <a id="a" href="{{ url_for("index") }}"> HOME </a> </li>
+        <li> <a id="b" href="{{ url_for("groups") }}"> GROUPS </a> </li>
+        <li> <a id="d" href="{{ url_for("more") }}"> MORE </a> </li>
+        {% if current_user.is_authenticated %}
+        <li> <a id="g" href="{{ url_for("logout") }}"> LOGOUT </a> </li>
+        {% else %}
+        <li> <a id="e" href="{{ url_for("signup") }}"> SIGN UP </a> </li>
+        <li> <a id="f" href="{{ url_for("login") }}"> LOG IN </a> </li>
+        {% endif %}
+    </ul>
+
+    <img id="logo" src="../static/logo.png" height="11%" width="11%">
+    
+    </center>
+    
+    
+    <div id="main-content">
+        
+        <span class="text1"> Squad Journal </span>
+
+        <span class="text2"> Share your day with your squad!  </span>
+
+        <br><br>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+         <ul>
+          {% for category, message in messages %}
+            <li class="{{ category }}"> {{ message }} </li>
+          {% endfor %}
+         </ul>
+        {% endif %}
+        {% endwith %}
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+</body>
+
+</html>
